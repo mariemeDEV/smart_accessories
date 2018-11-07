@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('https://i.icomoon.io/public/temp/eff28143f3/UntitledProject/icomoon.eot?n2jqkg');
+    src:  url('https://i.icomoon.io/public/temp/eff28143f3/UntitledProject/icomoon.eot?n2jqkg#iefix') format('embedded-opentype'),
+      url('https://i.icomoon.io/public/temp/eff28143f3/UntitledProject/icomoon.ttf?n2jqkg') format('truetype'),
+      url('https://i.icomoon.io/public/temp/eff28143f3/UntitledProject/icomoon.woff?n2jqkg') format('woff'),
+      url('https://i.icomoon.io/public/temp/eff28143f3/UntitledProject/icomoon.svg?n2jqkg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-arrow-right:before {
+    content: "\ea34";
+  }
+  .icon-arrow-left:before {
+    content: "\ea38";
+  }
+  .icon-facebook:before {
+    content: "\ea90";
+  }
+  .icon-twitter:before {
+    content: "\ea96";
+  }
+  .icon-linkedin2:before {
+    content: "\eaca";
+  }

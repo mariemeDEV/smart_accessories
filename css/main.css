@@ -1,0 +1,529 @@
+
+@font-face {
+    font-family: 'nexa-xbold-italicuploadedfile';
+    src: url('../fonts/nexa_xbold_italic-webfont.woff2') format('woff2'),
+         url('../fonts/nexa_xbold_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nexa-xbold-italicuploadedfile';
+    src: url('../fonts/nexa_xbold_italic-webfont.woff2') format('woff2'),
+         url('../fonts/nexa_xbold_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body{
+    font-family: 'nexaregularuploaded_file' !important;
+    overflow-x:hidden;
+    background:#ffffff;
+
+}
+a{
+    font-style: none;
+}
+p{
+    line-height: 1.8em;
+    color: #808080;
+}
+h1 {
+    line-height: 44px !important;
+}
+hr{
+    width:92% !important
+}
+
+/***************************************************Begin nav bar style***************************************/
+.navbar {
+}
+.header-contain{
+    background-color: #f3f3f2;
+    height:50px;
+    /* background-color:red; */
+    position: fixed;
+    z-index:2
+}
+.logo{
+    position: absolute;
+    left: 69px;
+    top:-5px
+}
+/* Links inside the navbar */
+.navbar .menu-top-content a{
+    float: left;
+    display: block;
+    color: orange;
+    font-weight:bold;
+    padding: 5px 19px;
+    text-decoration: none;
+    font-size:14px;
+}
+.navbar .menu-top-content a:hover{
+   text-decoration:underline
+}
+.menu-top-content{
+    margin-right: 102px;
+}
+.logo {
+    margin-top: 20px;
+    margin-left: -68px;
+}
+.bottom-navbar{
+    height: 106px;
+    line-height: 57px;
+} 
+.content-left{
+    padding:15px 0px 0px 60px;
+    justify-content: center
+}
+.content-right{
+   /* background-color:red;*/
+}
+.menu-bottom-content-right{
+    color:blue;
+    position: absolute;
+    top: -55px;
+    left: 376px;
+}
+.menu-bottom-content-right a{
+    float: left;
+    display: block;
+    color: #2b99d6;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-size:17px;
+    font-weight:bold
+}
+/* .menu-bottom-content-left{
+    background-color:yellow !important
+} */
+.menu-bottom-content-right a:hover{
+    color:#f8b73f
+}
+/***********************************End nav bar style*********************************/
+
+/**********************************Begin slider style**********************************/
+#s1 .s1_item1{
+    background: url('../images/s11.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    position: relative;
+    margin-top:42px
+}
+#s1 .s1_item2{
+    background: url('../images/s12.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    position: relative;
+    margin-top:42px
+}
+/* .slider-content:before{
+    content:'';
+    width:80px;
+    background:red
+} */
+.slider-content{
+    height:90vh;
+    z-index:0 !important;
+}
+#s1 .s1_item1{
+   height:94vh;
+}
+#s1 .s1_item2{
+    height:94vh;
+ }
+.owl-nav{
+    position: absolute;
+    top: 90.5vh;
+    right: 7vw;
+}
+.navigation{
+    text-align: right;
+    position: absolute;
+    right: -250px;
+    top: calc( ( 740px / 2 ) - 180px );
+    top:190px;
+    z-index: 20;
+    /* background: red */
+}
+#s1 .owl-nav button, .navigation .s-nav button {
+    width: 36px;
+    height: 32px;
+    display: inline-block;
+    opacity: 1 !important;
+    transition: .3s all ease-in-out;
+    border: 0;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#s1 .owl-nav button:hover {
+    opacity: .5 !important;
+}
+.navigation .s-nav button:hover {
+    opacity: .5 !important;
+}
+#s1 .owl-nav button span, .navigation .s-nav button span {
+    display: none;
+}
+#s1 .owl-nav button.owl-prev {
+    background: url("../images/ArrowL.png") center no-repeat;
+}
+
+#s1 .owl-nav button.owl-next {
+    background: url("../images/ArrowR.png") center no-repeat;
+}
+.navigation .s-nav button.owl-prev {
+    background: url("../images/ArrowL.png") center no-repeat;
+}
+.navigation .s-nav button.owl-next {
+    background: url("../images/ArrowR.png") center no-repeat;
+}
+.img_slide_top{
+    height:503px !important
+}
+.slide1-upon-text{
+    position: relative;
+    top:55vh;
+    color:#fff;
+}
+.slide1-upon-text h1{
+    font-size:56px;
+    font-family: 'nexa-xbolduploaded_file';
+    line-height: 54px !important;
+}
+.slide1-upon-text h4{
+    font-size:20px;
+}
+.slide1-link{
+    color: #f8b73f !important;
+    font-weight: bolder !important;
+    padding-top: 25px !important;
+    font-size: 1.5em;
+    margin-top: 40px;
+    display: inline-block;
+    border-bottom: solid 1px #f8b73f;
+    text-decoration: none !important;
+}
+/**********************************End slider style************************************/
+
+/**********************************Begin text produit style**************************/
+.text-produit{
+text-align: center;
+position: relative;
+top: 13vh;
+
+}
+.articles{
+    position: relative;
+    right: -135px
+}
+.qte{
+    padding-left:10px
+}
+#bucket{
+    position: relative;
+    right: -135px;
+    padding-right: 31px;
+}
+/**********************************End text produit style****************************/
+
+/**********************************Begin catalogue style**************************/
+.catalogue{
+    background-color: #ffffff;
+    height:auto;
+    position:relative;
+    top:106px
+}
+.cat-list .item-list{
+    background: #42bdc2;
+    padding: 30px 0px;
+    height:55vh;
+    margin: 10px;
+    background-repeat:no-repeat;
+    background-size : cover;
+    background-position: center; 
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.cat-list .item-list:hover {
+    cursor: pointer;
+    opacity:0.8;
+    transition: .3s all ease-in;
+  }
+
+  .details{
+    position: absolute;
+    left: 26px;
+    right: 0;
+    bottom: 177px;
+    width: 419px;
+    /* display: none; */
+    z-index: 1;
+    padding: 10px 10px 8px;
+    opacity: 0.5;
+    transition: .25s;
+    background: linear-gradient(to top,#525775,rgba(0,0,0,0) 93%);
+    font-size: 14px;
+    color: white;
+    font-weight: bolder;
+}
+.fa-eye:hover{
+    transform:scale(1.5);
+    transition: .3s all ease-in-out;
+}
+.fa-eye{
+    color:orange !important
+}
+.article-details{
+    /* background-color:#f4f3f3; */
+    width: 867px;
+    height: 530px;
+    background-image: url("../images/img3.jpg");
+    background-repeat: no-repeat;
+    background-size:80%;
+    margin: 36px 0 20px 0;
+    position: absolute;
+    top: 55px;
+}
+.a2{
+    background-color: #ffffff;
+    width: 409px;
+    position: relative;
+    right: -902px;
+    border: 1px solid #e9ebf1;
+    padding-left:30px
+}
+.elements{
+    position: relative;
+    left: 239px;
+    padding: 0;
+}
+.elements span{
+    padding-right:15px
+}
+.owl-dots{
+    margin-top:23px !important;
+    display: flex;
+    padding-right: 0;
+    width: 21px;
+}
+
+.cat-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.description{
+    display:none;
+    background: red;
+    position: relative;
+    top: 2px;
+    left: -210px;
+}
+.d1{
+    height:5px
+}
+.prix{
+    padding: 27px 5px 5px 5px;
+    font-size:20px;
+    color:orange
+}
+.prix p{
+    line-height: 5px
+}
+.descProd{
+    padding: 3px 5px 5px 5px;
+    font-size:20px;
+    color:orange
+}
+.conditions{
+    padding: 3px 5px 5px 5px;
+    font-size:20px;
+    color:orange
+}
+.check{
+padding-right:10px;
+color:green;
+font-size:10px;
+}
+.qteProd p{
+    line-height: 0px;
+    font-size:14px
+}
+.modalite{
+    /* padding-right:228px; */
+    padding-left:1px;
+}
+.m{
+    color:red;
+    font-weight:bold;
+    position:relative;
+    left:228px
+}
+.m2{
+    position: relative;
+    left: 243px;
+}
+.m3{
+    position: relative;
+    left: 251px;
+}
+.quantite{
+    padding-top:50px
+}
+.qte{
+    padding-right: 12px;
+    padding-left: 0;
+}
+.spinner{
+    padding-right:84px;
+    width:75px;
+    height:50px;
+    padding:0
+}
+.plus,.moins{
+    font-size: 30px;
+    color:orange
+}
+.ajouterPanier{
+   
+}
+
+
+/**********************************End catalogue style****************************/
+
+/**********************************Begin forms style******************************/
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    /* position: relative; */
+}
+
+img.avatar {
+    width: 20%;
+    border-radius: 50%;
+}
+
+/* .container {
+    padding: 16px;
+} */
+
+/* span.psw {
+    float: right;
+    padding-top: 16px;
+} */
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 40%;
+    /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+.connexion:hover{
+    color:orange
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    .psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+}
+/**********************************End forms style******************************/
